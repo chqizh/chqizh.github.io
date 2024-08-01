@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-    <nav>
+    <nav id="desktop-nav">
         <div class  = "logo"> Chiang Qin Zhi </div>
         <div>
             <ul class = "nav-links">
@@ -19,6 +19,37 @@
             </ul>
         </div>
     </nav>
-    <script = src"script.js"></script>
+    <nav id = "hamburger-nav">
+        <div class = "logo"> Chiang Qin Zhi </div>
+        <div class = "hamburger-menu">
+            <div class = "hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class = "menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div> 
+        </div>
+    </nav>
+    <section id="profile">
+        <div class = "section__pic-container">
+            <img src = "./assets/profile-pic.png" alt = "Chiang Qin Zhi Profile Picture">
+        </div>
+        <div class = "section__text">
+            <p class = " section__text__p1">Hello, I'm</p>
+            <h1 class = "section__text__title">Chiang Qin Zhi</h1>
+            <p class = "section__text__p2">I'm a full-stack developer based in Singapore.</p>
+            <div class="btn-container">
+                <button 
+                    class = "btn btn-color-2" 
+                    onclick = "window.open('./assets/resume-example.pdf')"
+                >Download Resume</button>
+            </div>
+        </div>
+    <script src = "script.js"></script>
 </body>
 </html>
