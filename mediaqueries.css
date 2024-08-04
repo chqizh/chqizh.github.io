@@ -4,6 +4,6 @@
     }
 
     #hamburger-nav {
-        display: block;
+        display: flex;
     }
 }
