@@ -40,18 +40,18 @@
             <img src = "./assets/profile-pic.png" alt = "Chiang Qin Zhi Profile Picture">
         </div>
         <div class = "section__text">
-            <p class = " section__text__p1">Hello, I'm</p>
-            <h1 class = "section__text__title">Chiang Qin Zhi</h1>
-            <p class = "section__text__p2">Full-stack developer, based in Singapore.</p>
+            <p class = "section__text__p1">Hello, I'm</p>
+            <h1 class = "title">Chiang Qin Zhi</h1>
+            <p class = "section__text__p2">Frontend Developer</p>
             <div class="btn-container">
                 <button 
-                    class = "btn btn-color-1" 
+                    class = "btn btn-color-2" 
                     onclick = "window.open('./assets/resume-example.pdf')"
                 > 
-                    Download Resume 
+                    Résumé
                 </button>
                 <button
-                    class = "btn btn-color-2"
+                    class = "btn btn-color-1"
                     onclick = "location.href = './#contact'"
                 >
                     Contact Info
@@ -129,7 +129,7 @@
         <h1 class="title">Experience</h1>
         <div class="experience-details-container">
             <div class="about-containers">
-                <div class="details-containers">
+                <div class="details-container">
                     <h2 class="experience-sub-title">Frontend Development</h2>
                     <div class="article-container">
                         <article>
@@ -200,7 +200,7 @@
                         </article>
                     </div>
                 </div>
-                <div class="details-containers">
+                <div class="details-container">
                     <h2 class="experience-sub-title">Backend Development</h2>
                     <div class="article-container">
                         <article>
@@ -258,6 +258,108 @@
             onclick="location.href='./#projects'"
         />
     </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container colors-container">
+                    <div class="article-container">
+                        <img 
+                            src="./assets/project-1.png" 
+                            alt="Project 1" 
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project 1</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2" onclick="location.href='https://github.com/chqizh'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2" onclick="location.href='https://github.com/chqizh'">
+                            Live Demo
+                        </button>
+                    </div>    
+                </div>
+                <div class="details-container colors-container">
+                    <div class="article-container">
+                        <img 
+                            src="./assets/project-2.png" 
+                            alt="Project 1" 
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project 2</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2" onclick="location.href='https://github.com/chqizh'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2" onclick="location.href='https://github.com/chqizh'">
+                            Live Demo
+                        </button>
+                    </div>    
+                </div><div class="details-container colors-container">
+                    <div class="article-container">
+                        <img 
+                            src="./assets/project-3.png" 
+                            alt="Project 1" 
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project 3</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2" onclick="location.href='https://github.com/chqizh'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2" onclick="location.href='https://github.com/chqizh'">
+                            Live Demo
+                        </button>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <img 
+            src="./assets/arrow.png" 
+            alt="Arrow Icon" 
+            class="icon arrow" 
+            onclick="location.href='./#contact'"
+        />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img 
+                    src="./assets/email.png" 
+                    alt="Email Icon" 
+                    class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:example@gmail.com">example@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img 
+                    src="./assets/linkedin.png" 
+                    alt="LinkedIn Icon" 
+                    class="icon contact-icon"
+                />
+                <p><a href="https://sg.linkedin.com/in/chiangqinzhi">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class = "nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Chiang Qin Zhi. All Rights Reserved.</p>
+    </footer>
     <script src = "script.js"></script>
 </body>
 </html>
